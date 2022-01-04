@@ -1,0 +1,38 @@
+﻿@model WebApplication3.Models.Employee
+@{ 
+    ViewData["Title"] = "Emplyee";
+}
+<div class="row">
+    <div class="col-3">
+
+    </div>
+
+    <div class="col-6">
+        <div class="text-center">
+            @using (Html.BeginForm("Edit", "Employee", FormMethod.Post))
+            {
+                <h4>Employee Form</h4>
+                <hr />
+                <p>
+                    ID:
+                    @Html.DisplayFor(m=>m.ID)
+                    @Html.HiddenFor(m=>m.ID)
+                </p>
+                <p>
+                    Name:
+                    @Html.TextBoxFor(m=>m.Name)
+                </p>
+                <p>
+                    Age:
+                    @Html.TextBoxFor(m=>m.Age)
+                </p>
+                <p>
+                    City Number
+                    @Html.LabelFor(m=>m.CityNo)
+                    @Html.TextBoxFor(m=>m.CityNo,new { @class="form-control"})
+                </p>
+                <input type="submit" class="btn btn-default" value="save" />
+            }
+    </div>
+</div>
+</div>
