@@ -16,5 +16,11 @@ namespace WebApplication3.Models
         public int JobId { get; set; }
         public int Salary { get; set; }
         public int IsActive { get; set; }
+
+        public City City { get; set; }
+        public Department Department { get; set; }
+        public Job Job { get; set; }
+        public List<EmpRole> EMPROLE { get; set; }
+
     }
 }

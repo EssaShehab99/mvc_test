@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\EssaShehab\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj": {}
+    "F:\\mvc_test\\WebApplication3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\EssaShehab\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj": {
+    "F:\\mvc_test\\WebApplication3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\EssaShehab\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+        "projectUniqueName": "F:\\mvc_test\\WebApplication3.csproj",
         "projectName": "WebApplication3",
-        "projectPath": "C:\\Users\\EssaShehab\\source\\repos\\WebApplication3\\WebApplication3\\WebApplication3.csproj",
+        "projectPath": "F:\\mvc_test\\WebApplication3.csproj",
         "packagesPath": "C:\\Users\\EssaShehab\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\EssaShehab\\source\\repos\\WebApplication3\\WebApplication3\\obj\\",
+        "outputPath": "F:\\mvc_test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EssaShehab\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.0, )"

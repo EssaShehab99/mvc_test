@@ -11,5 +11,6 @@ namespace WebApplication3.Models
         public string Name { get; set; }
         public int Age { get; set; }
         public int CityNo { get; set; }
+        public List<Employee> employees { get; set; }
     }
 }
